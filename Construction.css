@@ -1,0 +1,360 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    height: auto;
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header1{
+    background-color: rgb(4,14,39);
+}
+
+@media screen and (max-width:667px) {
+    .header1{
+        display: none;
+    }
+}
+
+
+
+.header1 a{
+    background-color: orangered;
+}
+.header1 a:hover{
+    background-color: rgb(4,38,50);
+}
+
+.header2{
+    background-color: rgba(18,30,49);
+    padding-top: 29px;
+    padding-bottom: 45px;
+    /* position: sticky;
+    top: 0px;
+    z-index: 1; */
+}
+.nav-link:hover{
+    border-bottom: 2px solid orangered;
+    transition: 0.3s;
+}
+.icon{
+    font-size: 30px;
+    color: orangered;
+}
+
+.p{
+    font-size: 15px;
+    color: orangered;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-bottom: 0;
+    /* margin-right: 100px; */
+}
+
+@media screen and (max-width:667px) {
+    .single_address{
+        display: none;
+        height: auto ;
+    }
+}
+
+.header3{
+    margin-top: -25px;
+    width: 100%;
+    top: 0px;
+    position:sticky;
+    float: left;
+    z-index: 1;
+    margin-bottom: -50px;
+}
+
+/* .header{
+    position: fixed;
+    width: 100%;
+    top: -70px;
+    left: 0;
+    right: 0;
+    z-index: 990;
+    transform: translateY(70px);
+    -webkit-transition: transform 500ms ease,background 500ms ease;
+    box-shadow: 0px 3px 16px 0px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.96);
+} */
+.section1 .row{
+    margin-top: -100px;
+}
+
+.section1 img{
+    height: 750px;
+    /* padding: 0%; */
+}
+
+.heading1{
+    margin-top: -60%;
+    font-size: 60PX;
+}
+
+.service{
+    background-color: orangered;
+}
+.service:hover{
+    background-color: rgb(4,14,39);
+}
+.about_p a:hover{
+    background-color: rgb(4,14,39);
+}
+#section9 a:hover{
+    background-color: rgb(4,14,39);
+}
+
+.Icon{
+    font-size: 30px;
+
+}
+
+.section2{
+    margin-top: -13%;
+}
+
+.section2 p{
+    text-align: center;
+}
+
+.section2 i{
+    font-size: 50px;
+    color: orangered;
+}
+
+.section2 .col-4{
+    padding: 0%;
+}
+ 
+.section2 .card{
+    border-radius: 0%;
+    margin-top: 75px;
+}
+.section2 .card:hover{
+    box-shadow: 0px 0px 20px #ddd;
+}
+
+.section3{
+    margin-top: 100px;
+}
+.section3 .about_area{
+    background-image: url('https://preview.colorlib.com/theme/constructo/img/pattern/pattern.svg');
+    background-repeat: no-repeat;
+    background-size: 10% 50%;
+    background-position-x:left;
+    background-position-y:top ;
+    margin-left: 20px;
+    /* margin-top: 80px; */
+    /* box-shadow: 0 0 20px #ddd; */
+}
+
+.about_area{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.section3 .col-6 .about_p{
+    margin-left: 20px;
+}
+
+.section3 .about_p h1{
+    font-size: 50px;
+}
+
+.section3 .about_p p{
+    font-size: 22px;
+}
+
+.section3 .about{
+    /* margin-top: 5%; */
+    background-color: orangered;
+    display: inline-block;
+}
+
+.pattern_img img{
+    background-position-x: right;
+
+}
+
+.heading4:hover{
+    cursor: pointer;
+    color: orangered;
+}
+
+.section5 .container-fluid img:hover{
+    cursor: pointer;
+    position: relative;
+    transform:scale(0.9,0.9);
+    transition: 0.3s;
+}
+
+.bg_img_1{
+    background-image: url('https://preview.colorlib.com/theme/constructo/img/banner/chose_banner.png.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    width: 100%;
+    padding-bottom: 100px;
+}
+
+.choose_info{
+    position: relative;
+    margin-top:150px;
+}
+
+.large_text{
+    font-size: 20px;
+}
+
+.popup-video{
+    height: 75px;
+    width: 13%;
+    padding-top:28px ;
+    background-color: white;
+    color: orangered;
+    border-radius: 50%;
+}
+
+.testimonial_contain{
+    margin-top: 30px;
+    /* margin-left: 25%; */
+}
+
+.contact_area{
+    background-image: url('https://media.istockphoto.com/id/1144649641/photo/blurred-abstract-glass-wall-from-building-in-city-town.jpg?s=612x612&w=0&k=20&c=dNeBzdXndlC6QO63wfn2VjUtCwRlFiQ2fvc1spX2pfI=');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 100%;
+}
+
+.top_footer{
+    margin-top: -16px;
+}
+
+.socail_links li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.socail_links li i{
+color: white;
+}
+
+.socail_links li i:hover{
+    color: orangered;
+}
+
+.popular_content{
+    color: white;
+}
+.popular_content p:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.useful_content{
+    color: white;
+}
+.useful_content p:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+.anchor a{
+    color: white;
+}
+
+.anchor a:hover{
+    color: orangered;
+}
+
+.section9 a{
+    margin-top: 50%;
+    color: white;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom: -50px;
+}
+
+.contact_btn a{
+    background-color: orangered;
+}
+.contact_btn .contact:hover{
+    background-color: rgb(4,14,39);
+}
+
+.download_btn a{
+    background-color: orangered;
+}
+.download_btn a:hover{
+    background-color: rgb(2, 100, 100);
+}
+
+
+@media screen and (max-width:667px) {
+    .section9{
+        margin-bottom: 100px;
+        /* height: 500px; */
+    }
+    .contact_area a{
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+}
+
+.section1-1{    
+    background-image: url('https://preview.colorlib.com/theme/constructo/img/banner/bradcam2.png.webp');
+    /* background: linear-gradient(to right, rgba(0, 29, 56, 0.7) 0%, rgba(26, 13, 1, 0.6) 100%); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    width: 100%;
+}
+
+.secction1-1 .container{
+    width: 100%;
+    padding-top: 100px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content_area {
+    background-position: center center;
+    padding: 130px 0px 65px 45%;
+}
+
+.content_area p{
+    font-size: 18px;
+    color: black;
+}
+
+.button-contactform{
+    background: #fff;
+    color: #F0542C;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #F0542C;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #F0542C !important;
+    text-transform: uppercase;
+    cursor: pointer;
+}
